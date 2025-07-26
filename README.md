@@ -2,6 +2,8 @@
 
 This project is part of my learning journey in data analysis, where I explored a structured dataset containing sales transactions across various regions, product categories, and time periods.
 
+Dataset - https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting/data
+
 The main objective of this analysis is to uncover meaningful business insights such as:
 
     Which region performs the best in terms of sales?
