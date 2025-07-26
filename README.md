@@ -1,4 +1,4 @@
-# sales-data-analysis
+# Sales Data Analysis in Excel
 
 This project is part of my learning journey in data analysis, where I explored a structured dataset containing sales transactions across various regions, product categories, and time periods.
 
