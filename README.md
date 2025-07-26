@@ -14,8 +14,6 @@ The main objective of this analysis is to uncover meaningful business insights s
 
 To accomplish this, I used Microsoft Excel 2007 to clean, organize, and visualize the data through PivotTables, charts, and formulas.
 
-This report summarizes my findings, highlights trends, and ends with actionable insights that could help inform sales strategies and decision-making.
-
 🧹 Data Cleaning: Issues Faced & Fixes
 
 While preparing the dataset in Excel 2007, I encountered a few tricky data formatting challenges — especially with the Order Date column. Here's how I tackled them:
