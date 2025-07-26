@@ -17,21 +17,11 @@ Used Excel's "Text to Columns" tool
 
 Selected Delimited → Next → Next → Column Data Format: Date (DMY)
 
-This successfully converted all text-formatted dates into real dates
+The moment I converted to DMY, the dates automatically adjusted to valid date format — no need for TRIM() or additional cleanup.
 
-2. ❌ Extra Spaces in Cells
+2. ✅ Structured Reference Formula Saved the Day
 
-Problem:Some cells had leading or trailing spaces, making them act like text even if they looked like dates.
-
-Fix:
-
-Used =TRIM([Order Date]) to remove unnecessary spaces
-
-Verified date recognition with =ISNUMBER(...)
-
-3. ✅ Structured Reference Formula Saved the Day
-
-Problem:Even after cleaning, traditional formulas in regular cells still returned #VALUE!.
+Problem:Even after converting the dates, regular formulas still behaved inconsistently.
 
 Solution:Using a structured reference formula inside a table:
 
@@ -49,8 +39,4 @@ Dataset was ready for pivot tables and further analysis
 
 💡 Key Takeaway
 
-In Excel 2007, even well-formatted-looking columns may store data as text. Using structured references in a table not only solved formula issues but also improved stability across calculations.
-
-Feel free to reuse or adapt this cleaning guide in your own Excel workflows!
-
-
+In Excel 2007, even well-formatted-looking columns may store data as text. The "Text to Columns" tool with DMY conversion was the real game changer. Structured references further ensured stability across formulas.
